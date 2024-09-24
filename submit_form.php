@@ -10,16 +10,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors = validate_form($name, $email, $message);
 
     if (empty($errors)) {
-        // Send email
-        $to = "lowj2587@laurens55.org"; // Replace with your email address
-        $subject = "New Contact Form Submission";
-        $body = "Name: $name\nEmail: $email\nMessage:\n$message";
-        $headers = "From: $email";
-
-        if (mail($to, $subject, $body, $headers)) {
+        // Write data to a text file
+        $file = 'submissions.txt';
+        $current = file_get_contents($file);
+        $current .= "Name: $name\nEmail: $email\nMessage: $message\n\n";
+        if (file_put_contents($file, $current)) {
             echo "Thank you for contacting us. We will get back to you shortly.";
         } else {
-            echo "Sorry, there was an error sending your message. Please try again later.";
+            echo "Sorry, there was an error saving your message. Please try again later.";
         }
     } else {
         // Display errors
@@ -58,4 +56,3 @@ function validate_form($name, $email, $message) {
     return $errors;
 }
 ?>
-
