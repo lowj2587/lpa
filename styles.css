@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #015e3c;
+    background-color: #ffffff;
 }
 
 header {
@@ -41,7 +41,7 @@ nav ul li a {
     background: url('school.jpg') no-repeat center center/cover;
     padding: 2em 0;
     text-align: center;
-    color: #ffffff;
+    color: #094d01;
 }
 
 .hero .btn {
