@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurens Preparatory Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Laurens Preparatory Academy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#staff">Staff Directory</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Laurens Preparatory Academy</h2>
+            <p>Our mission is to provide relatable experiences and opportunities each day so our students obtain the skills and knowledge that will enable them to succeed academically and socially.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Laurens Preparatory Academy is dedicated to empowering and inspiring all to be educated and informed. We prepare students for success in learning and careers through engaging, challenging, and personalized learning experiences.</p>
+        </div>
+    </section>
+
+    <section id="admissions" class="admissions">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Learn about our admissions process and how to apply to Laurens Preparatory Academy.</p>
+            <!-- Add admissions details here -->
+        </div>
+    </section>
+
+    <section id="academics" class="academics">
+        <div class="container">
+            <h2>Academics</h2>
+            <p>Explore our curriculum and academic programs designed to foster student success.</p>
+            <!-- Add academic details here -->
+        </div>
+    </section>
+
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2>Extracurricular Activities</h2>
+            <p>Discover our clubs, sports, and other extracurricular activities.</p>
+            <!-- Add activities details here -->
+        </div>
+    </section>
+
+    <section id="staff" class="staff">
+        <div class="container">
+            <h2>Staff Directory</h2>
+            <div class="staff-member">
+                <img src="staff1.jpg" alt="Dr. Tina Faulkner">
+                <h3>Dr. Tina Faulkner - Director</h3>
+                <p>Contact: tina.faulkner@laurensprep.com</p>
+            </div>
+            <div class="staff-member">
+                <img src="staff2.jpg" alt="John Doe">
+                <h3>John Doe - Teacher</h3>
+                <p>Contact: john.doe@laurensprep.com</p>
+            </div>
+            <!-- Add more staff members here -->
+        </div>
+    </section>
+
+    <section id="calendar" class="calendar">
+        <div class="container">
+            <h2>Calendar</h2>
+            <div id="calendar"></div>
+        </div>
+    </section>
+
+    <section id="news" class="news">
+        <div class="container">
+            <h2>News & Announcements</h2>
+            <div class="news-item">
+                <h3>Latest News Title</h3>
+                <p>Summary of the latest news...</p>
+                <a href="#">Read More</a>
+            </div>
+            <!-- Add more news items here -->
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-item">
+                <img src="event1.jpg" alt="Event 1">
+                <p>Event 1 Description</p>
+            </div>
+            <div class="gallery-item">
+                <img src="event2.jpg" alt="Event 2">
+                <p>Event 2 Description</p>
+            </div>
+            <!-- Add more gallery items here -->
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Laurens Preparatory Academy has been a wonderful experience for our child. The teachers are amazing!" - Parent</p>
+            </div>
+            <div class="testimonial">
+                <p>"I love the extracurricular activities offered here. There's something for everyone!" - Student</p>
+            </div>
+            <!-- Add more testimonials here -->
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Question 1</h3>
+                <p>Answer to question 1...</p>
+            </div>
+            <div class="faq-item">
+                <h3>Question 2</h3>
+                <p>Answer to question 2...</p>
+            </div>
+            <!-- Add more FAQ items here -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>125 Gleamns St, Suite B, Laurens, SC 29360</p>
+            <p>(864) 984-2211</p>
+            <div id="map"></div>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Laurens Preparatory Academy. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('#calendar').fullCalendar({
+                // Customize your calendar options here
+            });
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            var location = { lat: 34.499, lng: -82.014 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+</body>
+</html>
