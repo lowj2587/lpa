@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #00945e;
+    background-color: #015e3c;
 }
 
 header {
-    background: #015e3c; /* Pine Green */
+    background: #004c30; /* Pine Green */
     color: #FFD700; /* Gold */
     padding: 1em 0;
 }
@@ -41,7 +41,7 @@ nav ul li a {
     background: url('school.jpg') no-repeat center center/cover;
     padding: 2em 0;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 .hero .btn {
