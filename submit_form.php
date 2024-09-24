@@ -55,5 +55,4 @@ function validate_form($name, $email, $message) {
 
     return $errors;
 }
-<meta http-equiv="refresh" content="delay_time"; URL="https://lpa-fk2z.onrender.com/" />
 ?>
