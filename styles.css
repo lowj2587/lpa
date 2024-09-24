@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #00945e;
 }
 
 header {
-    background: #013220; /* Pine Green */
+    background: #015e3c; /* Pine Green */
     color: #FFD700; /* Gold */
     padding: 1em 0;
 }
@@ -46,7 +46,7 @@ nav ul li a {
 
 .hero .btn {
     background: #FFD700; /* Gold */
-    color: #013220; /* Pine Green */
+    color: #015e3c; /* Pine Green */
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 5px;
@@ -86,7 +86,7 @@ section {
 }
 
 .testimonials .testimonial {
-    background: #013220; /* Pine Green */
+    background: #015e3c; /* Pine Green */
     color: #FFD700; /* Gold */
     padding: 1em;
     margin-bottom: 1em;
@@ -104,7 +104,7 @@ section {
 }
 
 footer {
-    background: #013220; /* Pine Green */
+    background: #015e3c; /* Pine Green */
     color: #FFD700; /* Gold */
     text-align: center;
     padding: 1em 0;
