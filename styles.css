@@ -124,3 +124,15 @@ footer ul li a {
     color: #FFD700; /* Gold */
     text-decoration: none;
 }
+
+#menu {
+    display: none;
+}
+
+#menu2 {
+    display : none;
+}
+
+#menu3 {
+    display : none;
+}
