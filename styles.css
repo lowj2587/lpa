@@ -125,14 +125,9 @@ footer ul li a {
     text-decoration: none;
 }
 
-#menu {
-    display: none;
+.box>li>ul{
+display: none;
 }
-
-#menu2 {
-    display : none;
-}
-
-#menu3 {
-    display : none;
+.box>li:target>ul{
+display:block;
 }
